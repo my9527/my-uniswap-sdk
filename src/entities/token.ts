@@ -64,7 +64,7 @@ export const WETH = {
   //   'WETH',
   //   'Wrapped Ether'
   // ),
-  [ChainId.MAINNET]: new Token(ChainId.FILE, '0x4055867e43E27Dd0d8e12CE4c2dBD313286B011a', 18, 'WFIL', 'Wrapped FIL'),
+  [ChainId.MAINNET]: new Token(ChainId.FILE, '0xA35Bf7ef23B09fb099e6e75A078727dFf14b7576', 18, 'WFIL', 'Wrapped FIL'),
   [ChainId.ROPSTEN]: new Token(
     ChainId.ROPSTEN,
     '0xc778417E063141139Fce010982780140Aa0cD5Ab',
@@ -81,6 +81,6 @@ export const WETH = {
   ),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6', 18, 'WETH', 'Wrapped Ether'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, '0xd0A1E359811322d97991E03f863a0C30C2cF029C', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.FILE]: new Token(ChainId.FILE, '0x4055867e43E27Dd0d8e12CE4c2dBD313286B011a', 18, 'WFIL', 'Wrapped FIL'),
+  [ChainId.FILE]: new Token(ChainId.FILE, '0xA35Bf7ef23B09fb099e6e75A078727dFf14b7576', 18, 'WFIL', 'Wrapped FIL'),
   [ChainId.FILEH]: new Token(ChainId.FILEH, '0x608f45818e53032bEBFe30c629f02966FaB69e96', 18, 'WFIL', 'Wrapped tFIL')
 }
